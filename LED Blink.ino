@@ -15,11 +15,11 @@ void loop()
 
   /* add main program code here */
 	digitalWrite(LED, LOW);
-	delay(2000);
+	delay(100);
 	Serial.print("x = ");
 	Serial.println(X);
 	digitalWrite(LED, HIGH);
-	delay(2000);
+	delay(100);
 	X++;
 	if (X > 9) {
 		X = 0;
